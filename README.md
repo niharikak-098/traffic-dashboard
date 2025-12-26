@@ -1,4 +1,5 @@
 Traffic Dashboard
+
 A comprehensive dashboard for traffic analysis, simulation, and visualization using modern technologies.
 Features
 Real-time traffic data visualization.
@@ -60,5 +61,5 @@ traffic-dashboard/
 └─ package.json           # Node.js dependencies
 
 Author
-Niharika K. (Mitra)
+Niharika K. 
 GitHub: https://github.com/niharikak-098
