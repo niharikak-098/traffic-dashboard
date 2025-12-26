@@ -1,12 +1,64 @@
-# React + Vite
+Traffic Dashboard
+A comprehensive dashboard for traffic analysis, simulation, and visualization using modern technologies.
+Features
+Real-time traffic data visualization.
+Traffic simulation and predictive analysis.
+Interactive charts and maps for traffic trends.
+Backend API for data processing and streaming.
+Containerized setup for easy deployment.
+| Category                 | Technologies / Tools Used                |
+| ------------------------ | ---------------------------------------- |
+| Machine Learning & CV    | Python, TensorFlow/PyTorch, OpenCV, YOLO |
+| Simulation               | SUMO (Simulation of Urban Mobility)      |
+| Backend & API            | FastAPI                                  |
+| Data & Streaming         | Apache Kafka, PostgreSQL                 |
+| Frontend & Visualization | React.js, D3.js, Mapbox                  |
+| DevOps & Version Control | Docker, Git                              |
+How to Run
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clone the repository:
 
-Currently, two official plugins are available:
+git clone https://github.com/niharikak-098/traffic-dashboard.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Navigate to project folder:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+cd traffic-dashboard
+
+
+Install dependencies (Python packages, Node.js packages, etc.):
+
+pip install -r requirements.txt
+npm install
+
+
+Start backend server (FastAPI):
+
+uvicorn app:app --reload
+
+
+Start frontend (React.js):
+
+npm start
+
+
+Open your browser and go to:
+
+http://localhost:3000
+
+Project Structure
+traffic-dashboard/
+│
+├─ backend/               # FastAPI backend code
+├─ frontend/              # React.js frontend code
+├─ data/                  # CSV / database files
+├─ simulations/           # SUMO traffic simulations
+├─ Dockerfile             # Container setup
+├─ docker-compose.yml     # Docker services
+├─ README.md              # Project documentation
+├─ requirements.txt       # Python dependencies
+└─ package.json           # Node.js dependencies
+
+Author
+Niharika K. (Mitra)
+GitHub: https://github.com/niharikak-098
